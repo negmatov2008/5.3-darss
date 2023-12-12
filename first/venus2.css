@@ -1,0 +1,9 @@
+.gute{
+    position: absolute;
+    left: 13rem;
+}
+@media screen and (max-width: 426px){
+    .gute{
+        display: none;
+    }
+}

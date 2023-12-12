@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    height: 100%;
+  }
+  body {
+    font-family: "Antonio", sans-serif;
+    background: url(./imag1/bac.png) no-repeat, #070724;
+  }
+  .header {
+    padding: 1.375rem 2.563rem 1.688rem 2rem;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .leni {
+    width: 100%;
+    height: 1px;
+    opacity: 0.2;
+    background: #fff;
+    margin-bottom: 7.875rem;
+  }
+  .links {
+    display: flex;
+    gap: 2.09rem;
+  }
+  .links span a {
+    color: #fff;
+    font-family: Spartan;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 227.273% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    opacity: 0.75;
+  }
+  .link a:hover {
+    color: #fff;
+  
+    font-family: Spartan;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 227.273% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+  .hero {
+    display: flex;
+  }
+  .hero img {
+    padding-top: 6.25rem;
+    margin-left: 20.938rem;
+    margin-right: 18.688rem;
+    padding-bottom: 5rem;
+  }
+  .content {
+    max-width: 21.875rem;
+    color: white;
+  }
+  .content h1 {
+    color: #fff;
+    font-family: Antonio;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 1.438rem;
+  }
+  .content p {
+    color: #fff;
+    font-family: Spartan;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 178.571% */
+    margin-bottom: 1.438rem;
+  }
+  .span {
+    color: #fff;
+    font-family: Spartan;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 178.571% */
+    opacity: 0.5;
+    margin-bottom: 2.438rem;
+  }
+  .boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2.438rem;
+  }
+  .box {
+    padding: 0.75rem 0 0.688rem 1.75rem;
+    border: 1px solid rgba(0250, 0250, 0250, 0.2);
+    display: flex;
+    gap: 1.75rem;
+    cursor: pointer;
+  }
+  .active {
+    background: #D14C32;
+  }
+  .box span:nth-child(1) {
+    color: #fff;
+    font-family: Spartan;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 208.333% */
+    letter-spacing: 2.571px;
+    text-transform: uppercase;
+    opacity: 0.5;
+  }
+  .box span a {
+    color: #fff;
+    font-family: Spartan;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 208.333% */
+    letter-spacing: 2.571px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .footer {
+    margin-top: 5.438rem;
+    display: flex;
+    gap: 1.875rem;
+    margin-left: 10.313rem;
+    margin-bottom: 3.5rem;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 1.25rem 5.5rem 1.688rem 1.438rem;
+    border: 1px solid rgba(0250, 0250, 0250, 0.2);
+  }
+  .card span:nth-child(1) {
+    color: #fff;
+    font-family: Spartan;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 227.273% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: 0.5;
+  }
+  .card span:nth-child(2) {
+    color: #fff;
+    font-family: Antonio;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.5px;
+    text-transform: uppercase;
+  }
+  .meyu,
+  .m-img {
+    display: none;
+  }
+  .phone_header {
+    display: none;
+  }
+  .new_boxes {
+    display: none;
+  }
+  .l1 {
+    display: none;
+  }
+  @media screen and (max-width: 769px) {
+    body {
+      max-width: 768px;
+    }
+    .header {
+      flex-direction: column;
+    }
+    .header img {
+      margin-bottom: 2.438rem;
+      margin-top: 1rem;
+    }
+    .hero {
+      flex-direction: column;
+    }
+    .hero img {
+      padding: 0;
+      margin: 0 0 8.125rem 18.313rem;
+      width: 184px;
+      height: 184px;
+      flex-shrink: 0;
+    }
+    .content {
+      margin: 0;
+      padding: 0;
+    }
+    .footer {
+      margin: 1.688rem 0 0 0.6rem;
+    }
+    .box {
+      padding-right: 2rem;
+    }
+    .card {
+      padding: 0.2rem 0 0 0.7rem;
+      width: 164px;
+      height: 88px;
+      flex-shrink: 0;
+    }
+    .card .span:nth-child(2) {
+      color: #fff;
+      font-family: Antonio;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: -0.9px;
+      text-transform: uppercase;
+    }
+    .cont h1 {
+      color: #fff;
+      font-family: Antonio;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+    .content {
+      display: flex;
+      max-width: 100%;
+      margin-left: 2.438rem;
+      gap: 5rem;
+    }
+    .cont {
+      max-width: 339px;
+    }
+    .cont p {
+      color: #fff;
+      font-family: Spartan;
+      font-size: 11px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px; /* 200% */
+    }
+    .span {
+      margin-bottom: 0;
+    }
+  }
+  
+  @media screen and (max-width: 426px) {
+    .header {
+      display: none;
+    }
+    .meyu,
+    .m-img {
+      display: block;
+    }
+    .phone_header {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem 1.5rem;
+    }
+    .boxes {
+      display: none;
+    }
+    .new_boxes {
+      display: flex;
+      padding: 1.25rem 1.5rem;
+      justify-content: space-between;
+    }
+    .new a {
+      color: rgba(0250, 0250, 0250, 0.5);
+      text-align: center;
+      font-family: Spartan;
+      font-size: 9px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 1.929px;
+      text-transform: uppercase;
+      opacity: 0.5;
+      text-decoration: none;
+    }
+    .active {
+      background: none;
+      color: #fff;
+      position: relative;
+    }
+    .active a {
+      color: rgba(0250, 0250, 0250, 6);
+    }
+    .active::before {
+      content: "";
+      position: absolute;
+      top: 2.3rem;
+      width: 100%;
+      height: 4px;
+      background: #D14C32;
+    }
+    .leni {
+      margin-bottom: 0;
+    }
+    .l1 {
+      display: block;
+      margin-bottom: 5.938rem;
+    }
+    .hero img {
+      margin-left: 8.25rem;
+    }
+    .cont {
+      text-align: center;
+    }
+    .cont h1 {
+      color: #fff;
+      text-align: center;
+      font-family: Antonio;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+    .cont p {
+      color: #fff;
+      text-align: center;
+      font-family: Spartan;
+      font-size: 11px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px; /* 200% */
+    }
+    .footer {
+      flex-direction: column;
+      padding: 4rem 1.5rem;
+    }
+    .card {
+      flex-direction: row;
+      width: 100%;
+      padding: 0.563rem 1.5rem 0.813rem 1.5rem ;
+      justify-content: space-between;
+      height: 3rem;
+      margin: 0;
+      align-items: center;
+    }
+    .card span:nth-child(1) {
+      color: #fff;
+      font-family: Spartan;
+      font-size: 8px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 16px; /* 200% */
+      letter-spacing: 0.727px;
+      text-transform: uppercase;
+    }
+    .card span:nth-child(2) {
+      color: #fff;
+      text-align: right;
+      font-family: Antonio;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: -0.75px;
+      text-transform: uppercase;
+    }
+  }
+  
+  
